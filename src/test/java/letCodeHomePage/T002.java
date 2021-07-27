@@ -18,35 +18,35 @@ public class T002 extends HomePage {
 
 	}
 
-	@Test(enabled =false)
+	@Test(priority =1)
 	public void totalLinks() {
 
 		softAssert.assertEquals(noOFLinks(), 16);
 
 	}
 
-	@Test(enabled =false)
+	@Test(priority =2)
 	public void FooterFacebook() {
 
 		softAssert.assertEquals(facebook(), "https://www.facebook.com/ortoni/");
 		closeTheWindow();
 	}
 
-	@Test
+	@Test(priority =3)
 	public void FooterInsta() {
 
 		softAssert.assertEquals(insta(), "https://www.instagram.com/accounts/login/");
 		closeTheWindow();
 	}
 
-	@Test(enabled =false)
+	@Test(priority =4)
 	public void FooterLinkedIn() {
 
 		softAssert.assertEquals(linkedIn(), "https://www.linkedin.com/in/ortoni");
 		closeTheWindow();
 	}
 
-	@Test(enabled =false)
+	@Test(priority =6)
 	public void FooterYouTube() {
 
 		softAssert.assertEquals(youtube(), "https://www.youtube.com/letcode");
@@ -59,7 +59,7 @@ public class T002 extends HomePage {
 
 	}
 
-	@AfterSuite(enabled =false)
+	@AfterSuite()
 	public void assertt() {
 		softAssert.assertAll();
 	}

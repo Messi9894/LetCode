@@ -11,8 +11,9 @@ public class SeleniumBase {
 
 	public void openBrowser() {
 		driver = new ChromeDriver();
-		driver.get("https://letcode.in/");
 		driver.manage().window().maximize();
+		driver.get("https://letcode.in/");
+
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
