@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12936" started-at="2021-07-27T10:56:51 IST" finished-at="2021-07-27T10:57:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12936" started-at="2021-07-27T10:56:51 IST" finished-at="2021-07-27T10:57:04 IST">
+      <class name="letCodeHomePage.T002">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:letCodeHomePage.T002@376b4233]" name="OpenBrowser" is-config="true" duration-ms="9527" started-at="2021-07-27T10:56:51 IST" finished-at="2021-07-27T10:57:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="FooterInsta()[pri:0, instance:letCodeHomePage.T002@376b4233]" name="FooterInsta" duration-ms="2657" started-at="2021-07-27T10:57:01 IST" finished-at="2021-07-27T10:57:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FooterInsta -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:letCodeHomePage.T002@376b4233]" name="Down" is-config="true" duration-ms="702" started-at="2021-07-27T10:57:03 IST" finished-at="2021-07-27T10:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+      </class> <!-- letCodeHomePage.T002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
